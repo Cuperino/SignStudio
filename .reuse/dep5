@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: SignStudio
+Upstream-Contact: Javier O. Cordero Pérez <javiercorderoperez@gmail.com>
+Source: http://signvision.org/
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...

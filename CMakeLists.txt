@@ -17,14 +17,14 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets LinguistTools)
 set(TS_FILES SignStudio_en_US.ts)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
-        transport.cpp transport.h
-        signvec.h signvec.cpp
-        face.h face.cpp
-        ${TS_FILES}
+        src/main.cpp
+        src/mainwindow.cpp
+        src/mainwindow.h
+        src/mainwindow.ui
+        src/transport.cpp src/transport.h
+        src/signvec.h src/signvec.cpp
+        src/face.h src/face.cpp
+        src/${TS_FILES}
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
